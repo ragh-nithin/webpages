@@ -1,0 +1,110 @@
+body
+{
+	background-color: black;
+	background-image: url('../images/coast.jpg');
+	background-size: cover;
+	padding: 100px 0 0 0;
+}
+
+header{
+	color: #EEE4E4;
+	min-height: 60px;
+	line-height: 60px;
+	background-color: black;
+	position: fixed;
+	top:0;
+	left: 0;
+	width: 100%;
+}
+
+header p{
+	float: left;
+	font-size: sans-serif;
+	font-weight: bold;
+	padding:  0 0 0 25px;
+}
+
+header button
+{
+	color:#322D2D;
+	background-color: #D4C8C8;
+	border: 0;
+	border-radius: 4px;
+	padding: 2px;
+	width: 80px;
+	float: right;
+	margin: 20px 30px 0 0;
+}
+
+
+#loginForm{
+
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform:translate(-50%,-50%);
+	color: white;
+	width: 400px;
+	padding: 160px 60px;
+	height:500px;
+	background-color: rgba(0,0,0,0.4);
+	border-radius: 8px;
+}
+
+#loginForm h2{
+	background: rgba(0,0,0,0.6);
+	margin: 0;
+	position: absolute;
+	top: 40px;
+	left: 0;
+	width: 100%;
+	padding: 10px;
+	text-align: center;
+}
+
+#loginForm p
+{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+}
+
+#loginForm input
+{
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+#loginForm input[type="text"],
+#loginForm input[type="password"]{
+	border: 0;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #fff;
+
+}
+::placeholder
+{
+	color: rgba(255,255,255,0.5);
+}	
+
+
+#loginForm input[type="submit"]{
+	height: 40px;
+	border:0;
+	outline:none;
+	color: #fff;
+	background: rgba(0,0,0,0.6);
+	cursor: pointer;
+	border-radius: 5px;
+	margin-top: 10px;
+}
+
+#loginForm a
+{
+	text-decoration: none;
+	font-weight: bold;
+	color: #fff;
+}
